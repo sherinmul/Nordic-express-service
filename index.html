@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f3f0e8">
+  <meta name="description" content="Nordic Express Service hjälper dig flytta tryggt, snabbt och enkelt.">
+  <title>Nordic Express Service — Flytt till nästa kapitel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav-wrap"><nav class="nav container" aria-label="Huvudmeny">
+    <a class="brand" href="#top" aria-label="Nordic Express Service startsida"><span class="brand-mark"><span></span></span>Nordic Express Service</a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-label="Öppna meny"><span></span><span></span></button>
+    <div class="nav-links"><a href="#tjanster">Tjänster</a><a href="#process">Så funkar det</a><a href="#omoss">Om oss</a><a class="nav-cta" href="#offert">Få offert <span>↗</span></a></div>
+  </nav></header>
+
+  <main id="top">
+    <section class="hero" aria-label="Nordic Express Service flyttfirma">
+      <div class="hero-background"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Flyttfirma i hela Sverige</p>
+          <h1>Vi flyttar<br>det som<br><em>betyder något.</em></h1>
+          <p class="hero-lead">Från första kartong till sista möbel. Vi gör din flytt trygg, enkel och helt i din takt.</p>
+          <div class="hero-actions"><a class="button primary" href="#offert">Boka din flytt <span>↗</span></a><a class="text-link" href="#tjanster">Se våra tjänster <span>↓</span></a></div>
+        </div>
+      </div>
+      <div class="trust-strip"><div class="container trust-inner"><div><strong>1000+</strong><small>genomförda flyttar</small></div><div><strong>12+</strong><small>års erfarenhet</small></div><div><strong>100%</strong><small>trygg och försäkrad flytt</small></div></div></div>
+    </section>
+
+    <section class="services section" id="tjanster"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow dark"><span></span> Våra tjänster</p><h2>Allt för en smidig<br>flytt.</h2></div><p>Oavsett om du flyttar runt hörnet eller över hela landet hjälper vi dig hela vägen.</p></div>
+      <div class="service-grid">
+        <article class="service-card featured"><div class="service-number">01</div><div class="service-icon room-photo"><img src="assets/apartment-room.jpg" alt="Modern lägenhet som förbereds för flytt"><div class="photo-boxes" aria-hidden="true"><i></i><i></i><i></i></div></div><h3>Bostadsflytt</h3><p>Vi packar, bär och monterar—så att du kan fokusera på ditt nya hem.</p><a href="#offert">Läs mer <span>↗</span></a></article>
+        <article class="service-card"><div class="service-number">02</div><div class="service-icon room-photo office-photo"><img src="assets/office-empty.jpg" alt="Klassiskt kontorsrum under flyttförberedelse"><div class="photo-boxes office-boxes" aria-hidden="true"><i></i><i></i><i></i></div></div><h3>Kontorsflytt</h3><p>Effektiv flyttplanering som får ert företag igång igen, snabbt och säkert.</p><a href="#offert">Läs mer <span>↗</span></a></article>
+        <article class="service-card"><div class="service-number">03</div><div class="service-icon"><img src="assets/packed-items.jpg" alt="Nytt och snyggt packade flyttkartonger"></div><h3>Packning</h3><p>Vi packar säkert med rätt material—våra eller dina, helt enligt önskemål.</p><a href="#offert">Läs mer <span>↗</span></a></article>
+      </div>
+    </div></section>
+
+    <section class="process section" id="process"><div class="container process-grid">
+      <div class="process-visual"><img src="assets/home-moving.jpg" alt="Kartong förbereds för flytt i ett hem"></div>
+      <div class="process-copy"><p class="eyebrow dark"><span></span> Enkel process</p><h2>Från A till B,<br>utan krångel.</h2><ol><li><span>1</span><div><h3>Berätta om din flytt</h3><p>Fyll i några enkla uppgifter så får du snabbt en tydlig offert.</p></div></li><li><span>2</span><div><h3>Vi planerar allt</h3><p>Vi bokar tid, packar vid behov och förbereder hela logistiken.</p></div></li><li><span>3</span><div><h3>Du kan luta dig tillbaka</h3><p>Vårt erfarna team sköter transporten från dörr till dörr.</p></div></li></ol></div>
+    </div></section>
+
+    <section class="quote-section" id="offert"><div class="container quote-grid">
+      <div class="quote-copy"><p class="eyebrow light"><span></span> Kostnadsfri offert</p><h2>Redo för ett nytt<br>kapitel?</h2><p>Berätta lite om din flytt så återkommer vi inom 24 timmar med ett tydligt prisförslag.</p></div>
+      <form class="quote-form" name="offert" method="POST" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="offert"><p hidden><label>Lämna detta fält tomt om du är människa:<input name="bot-field"></label></p><div class="field-row"><label>Från<input required name="from" placeholder="Postort / adress"></label><label>Till<input required name="to" placeholder="Postort / adress"></label></div><div class="field-row"><label>Namn<input required name="name" placeholder="Ditt namn"></label><label>Telefon<input required name="phone" type="tel" placeholder="070–000 00 00"></label></div><label>Berätta lite mer<textarea name="message" rows="3" placeholder="Boarea, våning, önskat datum..."></textarea></label><button class="button form-button" type="submit">Skicka förfrågan <span>↗</span></button></form>
+    </div></section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark"><span></span></span>Nordic Express Service</a><p>Trygg flytt. Från dörr till dörr.</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
